@@ -8,10 +8,6 @@ body {
   background-image: url('../images/background.png')
 }
 
-li {
-  list-style: none;
-}
-
 h1 {
   font-size: 70px;
   color: white;
@@ -25,8 +21,10 @@ h3 {
   font-size: 23px;
 }
 
-a {
+p a {
   color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 p {
@@ -41,6 +39,11 @@ p {
 #ribbon {
   text-align: left;
   background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+#ribbon a {
   color: white;
   font-size: 11px;
 }
