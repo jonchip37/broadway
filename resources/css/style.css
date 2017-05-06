@@ -1,7 +1,46 @@
 body {
   text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url('../images/background.png')
 }
 
 li {
   list-style: none;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+a {
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#divider {
+  color: white;
+}
+
+#ribbon {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
 }
